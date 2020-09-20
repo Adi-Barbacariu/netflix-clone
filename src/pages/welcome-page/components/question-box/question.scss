@@ -1,0 +1,35 @@
+.question-box {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem 3rem;
+  font-size: 2.8rem;
+  width: 65rem;
+  margin: auto;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.answer {
+  width: 65rem;
+  margin: auto;
+  border-top: 1px solid #000;
+  background-color: #333;
+  margin-bottom: 1rem;
+  font-size: 2.8rem;
+  display: block;
+  max-height: 120rem;
+  transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  overflow: hidden;
+  padding: 1.8rem 2rem;
+}
+
+.closed {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0;
+}
