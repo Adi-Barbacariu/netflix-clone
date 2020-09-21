@@ -23,7 +23,7 @@ function SignInPage() {
         <Button>Conectare</Button>
 
         <p className="signin__link">
-          Esti nou la Netflix? <a href="#">Inregistreaza-te acum</a>
+          Esti nou la Netflix? <a href="/#">Inregistreaza-te acum</a>
         </p>
 
         <p className="signin__captcha">
@@ -37,22 +37,22 @@ function SignInPage() {
           <p className="footer__call">Ai intrebari? Suna la 0800-672-120</p>
 
           <div className="footer__grid">
-            <a href="#" className="footer__link">
+            <a href="/#" className="footer__link">
               Intrebari frecvente
             </a>
-            <a href="#" className="footer__link">
+            <a href="/#" className="footer__link">
               Preferinte de cookie
             </a>
-            <a href="#" className="footer__link">
+            <a href="/#" className="footer__link">
               Asistenta
             </a>
-            <a href="#" className="footer__link">
+            <a href="/#" className="footer__link">
               Informatii legate de companie
             </a>
-            <a href="#" className="footer__link">
+            <a href="/#" className="footer__link">
               Conditii de utilizare
             </a>
-            <a href="#" className="footer__link">
+            <a href="/#" className="footer__link">
               Declaratia de confidentialitate
             </a>
           </div>

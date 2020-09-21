@@ -12,7 +12,7 @@ function Section({ message, image, centerSection }) {
 
         <img
           src={image}
-          alt="section photo"
+          alt="movie banner"
           className={`section__img ${centerSection ? "first" : ""}`}
         />
       </div>

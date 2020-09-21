@@ -1,0 +1,34 @@
+.row {
+  margin-left: 2.5rem;
+  position: relative;
+  top: -5rem;
+
+  &__title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 2.5rem;
+  }
+
+  &__movies {
+    display: flex;
+    overflow-x: scroll;
+    width: 100vw;
+    padding: 2.5rem 0 2.5rem 2.5rem;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  img {
+    object-fit: contain;
+    margin-right: 1rem;
+    transition: transform ease-out 250ms;
+    cursor: pointer;
+  }
+
+  img:hover {
+    transform: scale(1.05);
+  }
+}

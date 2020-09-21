@@ -8,7 +8,6 @@
   box-sizing: inherit;
   font-weight: normal;
   line-height: 1.4;
-  overflow-x: hidden;
 }
 
 html {
@@ -18,4 +17,6 @@ html {
 body {
   font-size: 1.6rem;
   box-sizing: border-box;
+  background-color: rgb(20, 20, 20);
+  overflow-x: hidden;
 }
